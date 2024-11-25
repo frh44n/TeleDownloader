@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
+BOT_TOKEN = '7625417352:AAF4rYYRMUhQihSoNIwFOAd1_IYenehAbNk'
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Send me a file, and I'll give you a direct download link.")
